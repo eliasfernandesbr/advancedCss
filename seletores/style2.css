@@ -1,0 +1,15 @@
+*{
+    /* margin: 0;  asteristico vai selecionar todos os elementos da página*/ 
+}
+
+.p2, h2{
+    background-color: crimson;
+}
+
+#head > p{
+    background-color: darkmagenta;
+}
+
+[width]{
+    background-color:darkolivegreen ;
+}

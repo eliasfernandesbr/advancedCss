@@ -1,0 +1,19 @@
+input:focus{
+    color: rgb(255, 0, 0);
+    background-color: greenyellow;
+}
+
+li:first-child{
+    color: rgb(255, 0, 0);
+}
+
+/* li:first-of-child{
+    color: rgb(255, 0, 0); vai selecionar o primeiro filho do tipo de elemento
+} */
+
+li:nth-child(2){
+    color: rgb(89, 0, 255);
+}
+li :nth-of-type(4){
+    color: rgb(250, 253, 39);
+}
