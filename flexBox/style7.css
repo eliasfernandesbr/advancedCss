@@ -1,0 +1,37 @@
+.container{
+    display: flex; /*FARÁ COM QUE TODOS OS ELEMENTOS FILHOS TENTEM PREENCHER*/
+    flex-direction:row;
+    /* flex-wrap: wrap; PROTEGE O TAMANHO DO ELEMENTO */
+    /* justify-content:center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    
+    background-color: #353636;
+    height: 400px;
+    color: #ffffff;
+}
+
+.r1{
+    background-color: indigo;
+    order: 1;
+    align-self: center;
+    /* flex-shrink: 0; */
+    flex-grow: 1; /*CADA NUMERO QUE SOBE ADICIONA += DE TAMANHO DE SI MESMA*/
+}
+
+.r2{
+    order: 1; /*MUDA A ORDEM DO ELEMENTO*/
+    background-color: lawngreen ; 
+    flex-grow: 1;
+}
+
+.r3{
+    /* flex-shrink: 0; DEFINE SE UM ELEMENTO PODE OU NÃO ENCOLHER, 1 = TRUE, 0 = FALSE */
+    flex-grow: 1; /*PERMITE QUE UM ELEMENTO ESTIQUE AO MUDAR O TAMANHO DA TELA*/
+    background-color: rgb(0, 255, 200);
+}
+
+.react{
+    width: 100px;
+    height: 100px;
+}
