@@ -1,0 +1,4 @@
+img{
+    transform: rotate(180Deg); /*ROTACIONA A IMAGEM EM GRAUS VARIADOS*/
+    transform: scale(0.5); /*DOBRA O TAMANHO DA IMAGEM ou DIMINUI O TAMANHO*/
+}
