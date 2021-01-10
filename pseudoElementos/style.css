@@ -1,0 +1,38 @@
+p::first-line{
+    color: blueviolet;
+
+}
+p::first-letter{
+    color: #e74200;
+
+}
+
+h1::first-letter{
+    color: #e74200;
+    font-size: 5rem;
+
+}
+
+li{
+    list-style: none;
+
+    /* list-style-image: url(/pseudoElementos/img/google.png);
+    margin-left: 600px; */
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/pseudoElementos/img/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+p::selection{
+    background-color: rgba(255, 60, 0, 0.705);
+    color: rgb(123, 20, 220);
+}
